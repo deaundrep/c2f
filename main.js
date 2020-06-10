@@ -1,6 +1,46 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+function cToF(celsius){
+  let fahrenheit = celsius * 9/5 + 32;
+  return fahrenheit;
+}
+cToF(0)
+
+function getInput(n) {
+  return process.argv[n + 2];
+}
+
+
+let input = 0
+let output = cToF(0)
+
+console.log(input)
+console.log('0 degrees Celsius is 32 degrees in Fahrenheit.')
+console.log(output)
+
+let input1 = 100
+let output1 = cToF(100)
+
+console.log(input1)
+console.log('100 degrees Celsius is 212 degrees in Fahrenheit.')
+console.log(output1)
+
+let input2 = 5
+let output2 = cToF(5)
+
+console.log(input2)
+console.log('5 degrees Celsius is 41 degrees in Fahrenheit.')
+console.log(output2)
+
+
+
+
+
+
+
+
+
 
 
 
